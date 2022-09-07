@@ -1,3 +1,4 @@
+from email.policy import default
 from django.db import models
 from django.contrib.auth.models import User
 
@@ -21,6 +22,7 @@ class Post(models.Model):
     uncleanliness = models.CharField(max_length=50, default='no') 
     lateness = models.CharField(max_length=50, default='no') 
     homepartying = models.CharField(max_length=50, default='no')
+    # image = models.FileField()
 
 
     def __str__(self):
