@@ -77,7 +77,8 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOWED_ORIGINS = [    
-    'http://localhost:3000'
+    'http://localhost:3000',
+    'https://bscroommate.netlify.app/'
 ]
 
 ROOT_URLCONF = 'room_project.urls'
