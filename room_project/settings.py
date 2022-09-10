@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-!i4)728dz!*p=7gu6#fbf-3+_v$ptq-63xu^&6&-dti_zr4k&(
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['project-roommate.herokuapp.com', '127.0.0.1', 'localhost:3000', 'https://bscroommate.netlify.app/']
+ALLOWED_HOSTS = ['project-roommate.herokuapp.com', '127.0.0.1', 'localhost:3000', 'https://bscroommate.netlify.app']
 
 
 # Application definition
@@ -78,7 +78,7 @@ MIDDLEWARE = [
 
 CORS_ALLOWED_ORIGINS = [    
     'http://localhost:3000',
-    'https://bscroommate.netlify.app/'
+    'https://bscroommate.netlify.app'
 ]
 
 ROOT_URLCONF = 'room_project.urls'
